@@ -1,14 +1,16 @@
 //
 //  AppDelegate.m
-//  PoppingOutCell
+//  test_for_request
 //
-//  Created by LAN on 3/12/15.
+//  Created by LAN on 1/14/15.
 //  Copyright (c) 2015 LAN. All rights reserved.
 //
 
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) ViewController *mainViewController;
 
 @end
 
@@ -17,6 +19,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.mainViewController = [[ViewController alloc] init];
+
+    UINavigationController *navigator = [[UINavigationController alloc] initWithRootViewController:self.mainViewController];
+    self.window.rootViewController = navigator;
+    [navigator setNavigationBarHidden:YES];
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

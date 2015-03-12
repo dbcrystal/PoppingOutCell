@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3F9BFEB61AB12ED6004564F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BFEB51AB12ED6004564F4 /* main.m */; };
-		3F9BFEB91AB12ED6004564F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BFEB81AB12ED6004564F4 /* AppDelegate.m */; };
-		3F9BFEBC1AB12ED6004564F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BFEBB1AB12ED6004564F4 /* ViewController.m */; };
 		3F9BFEBF1AB12ED6004564F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9BFEBD1AB12ED6004564F4 /* Main.storyboard */; };
 		3F9BFEC11AB12ED6004564F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9BFEC01AB12ED6004564F4 /* Images.xcassets */; };
 		3F9BFEC41AB12ED6004564F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F9BFEC21AB12ED6004564F4 /* LaunchScreen.xib */; };
 		3F9BFED01AB12ED7004564F4 /* PoppingOutCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BFECF1AB12ED7004564F4 /* PoppingOutCellTests.m */; };
+		3F9BFEE51AB12F54004564F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BFEDA1AB12F54004564F4 /* AppDelegate.m */; };
+		3F9BFEEA1AB12F54004564F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BFEE41AB12F54004564F4 /* ViewController.m */; };
+		3F9BFEF21AB12F95004564F4 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BFEED1AB12F95004564F4 /* CellView.m */; };
+		3F9BFEF31AB12F95004564F4 /* DraggedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BFEEF1AB12F95004564F4 /* DraggedTableViewCell.m */; };
+		3F9BFEF41AB12F95004564F4 /* PopOutButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BFEF11AB12F95004564F4 /* PopOutButtonView.m */; };
+		3F9BFEF81AB130EC004564F4 /* TableCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9BFEF71AB130EC004564F4 /* TableCellData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +34,25 @@
 		3F9BFEB01AB12ED6004564F4 /* PoppingOutCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoppingOutCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9BFEB41AB12ED6004564F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F9BFEB51AB12ED6004564F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F9BFEB71AB12ED6004564F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3F9BFEB81AB12ED6004564F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F9BFEBA1AB12ED6004564F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F9BFEBB1AB12ED6004564F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F9BFEBE1AB12ED6004564F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F9BFEC01AB12ED6004564F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F9BFEC31AB12ED6004564F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3F9BFEC91AB12ED7004564F4 /* PoppingOutCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoppingOutCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9BFECE1AB12ED7004564F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F9BFECF1AB12ED7004564F4 /* PoppingOutCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoppingOutCellTests.m; sourceTree = "<group>"; };
+		3F9BFED91AB12F54004564F4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F9BFEDA1AB12F54004564F4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F9BFEE31AB12F54004564F4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F9BFEE41AB12F54004564F4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F9BFEEC1AB12F95004564F4 /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
+		3F9BFEED1AB12F95004564F4 /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
+		3F9BFEEE1AB12F95004564F4 /* DraggedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggedTableViewCell.h; sourceTree = "<group>"; };
+		3F9BFEEF1AB12F95004564F4 /* DraggedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggedTableViewCell.m; sourceTree = "<group>"; };
+		3F9BFEF01AB12F95004564F4 /* PopOutButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopOutButtonView.h; sourceTree = "<group>"; };
+		3F9BFEF11AB12F95004564F4 /* PopOutButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopOutButtonView.m; sourceTree = "<group>"; };
+		3F9BFEF51AB1300F004564F4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3F9BFEF61AB130EC004564F4 /* TableCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCellData.h; sourceTree = "<group>"; };
+		3F9BFEF71AB130EC004564F4 /* TableCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCellData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +94,11 @@
 		3F9BFEB21AB12ED6004564F4 /* PoppingOutCell */ = {
 			isa = PBXGroup;
 			children = (
-				3F9BFEB71AB12ED6004564F4 /* AppDelegate.h */,
-				3F9BFEB81AB12ED6004564F4 /* AppDelegate.m */,
-				3F9BFEBA1AB12ED6004564F4 /* ViewController.h */,
-				3F9BFEBB1AB12ED6004564F4 /* ViewController.m */,
+				3F9BFED91AB12F54004564F4 /* AppDelegate.h */,
+				3F9BFEDA1AB12F54004564F4 /* AppDelegate.m */,
+				3F9BFEE31AB12F54004564F4 /* ViewController.h */,
+				3F9BFEE41AB12F54004564F4 /* ViewController.m */,
+				3F9BFEEB1AB12F95004564F4 /* Cell */,
 				3F9BFEBD1AB12ED6004564F4 /* Main.storyboard */,
 				3F9BFEC01AB12ED6004564F4 /* Images.xcassets */,
 				3F9BFEC21AB12ED6004564F4 /* LaunchScreen.xib */,
@@ -97,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				3F9BFEB41AB12ED6004564F4 /* Info.plist */,
+				3F9BFEF51AB1300F004564F4 /* PrefixHeader.pch */,
 				3F9BFEB51AB12ED6004564F4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -117,6 +132,21 @@
 				3F9BFECE1AB12ED7004564F4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F9BFEEB1AB12F95004564F4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3F9BFEEC1AB12F95004564F4 /* CellView.h */,
+				3F9BFEED1AB12F95004564F4 /* CellView.m */,
+				3F9BFEEE1AB12F95004564F4 /* DraggedTableViewCell.h */,
+				3F9BFEEF1AB12F95004564F4 /* DraggedTableViewCell.m */,
+				3F9BFEF01AB12F95004564F4 /* PopOutButtonView.h */,
+				3F9BFEF11AB12F95004564F4 /* PopOutButtonView.m */,
+				3F9BFEF61AB130EC004564F4 /* TableCellData.h */,
+				3F9BFEF71AB130EC004564F4 /* TableCellData.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F9BFEBC1AB12ED6004564F4 /* ViewController.m in Sources */,
-				3F9BFEB91AB12ED6004564F4 /* AppDelegate.m in Sources */,
+				3F9BFEEA1AB12F54004564F4 /* ViewController.m in Sources */,
+				3F9BFEE51AB12F54004564F4 /* AppDelegate.m in Sources */,
+				3F9BFEF21AB12F95004564F4 /* CellView.m in Sources */,
+				3F9BFEF31AB12F95004564F4 /* DraggedTableViewCell.m in Sources */,
+				3F9BFEF41AB12F95004564F4 /* PopOutButtonView.m in Sources */,
+				3F9BFEF81AB130EC004564F4 /* TableCellData.m in Sources */,
 				3F9BFEB61AB12ED6004564F4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PoppingOutCell/PrefixHeader.pch;
 				INFOPLIST_FILE = PoppingOutCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PoppingOutCell/PrefixHeader.pch;
 				INFOPLIST_FILE = PoppingOutCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +448,7 @@
 				3F9BFED51AB12ED7004564F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F9BFED61AB12ED7004564F4 /* Build configuration list for PBXNativeTarget "PoppingOutCellTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +457,7 @@
 				3F9BFED81AB12ED7004564F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  test_for_request
+//
+//  Created by LAN on 1/14/15.
+//  Copyright (c) 2015 LAN. All rights reserved.
+//
+
+#define navBarHeight 64
+#define tabBarHeight 49
+#define tagBarHeight 40
+#define tableViewCellHeight 80
+#define popOutButtonWidth 75
+#define offsetLimit 20
