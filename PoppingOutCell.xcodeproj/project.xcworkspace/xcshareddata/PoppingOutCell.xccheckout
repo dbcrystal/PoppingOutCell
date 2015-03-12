@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>27EEF0B1-7B5D-4A26-AFFB-EB2416846327</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PoppingOutCell</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2A9C6BDD3474D6FC4355EA97781131407703E025</key>
+		<string>https://github.com/dbcrystal/PoppingOutCell.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PoppingOutCell/PoppingOutCell.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2A9C6BDD3474D6FC4355EA97781131407703E025</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dbcrystal/PoppingOutCell.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2A9C6BDD3474D6FC4355EA97781131407703E025</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2A9C6BDD3474D6FC4355EA97781131407703E025</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PoppingOutCell</string>
+		</dict>
+	</array>
+</dict>
+</plist>
