@@ -8,7 +8,6 @@ PoppingOutCell is a small plug-in for iOS. It can bring wonderful experience whe
 - `PopOutButtonViewCell`
 - `CellView`
 - `TableCellData`
-
 - `PrefixHeader`
 
 ## Usage
@@ -31,7 +30,7 @@ DraggedTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId
 
 ```objective-c
 PopOutButtonView *view = [[PopOutButtonView alloc] initWithFrame:Frame
-andTitle:nil
-andBackgroundColor:[UIColor color]];
+                                                        andTitle:nil
+                                              andBackgroundColor:[UIColor color]];
 [cell addSubviewAsPopOutButton:view];
 ```
