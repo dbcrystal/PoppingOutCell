@@ -14,11 +14,11 @@
 		<string>https://github.com/dbcrystal/PoppingOutCell.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>PoppingOutCell/PoppingOutCell.xcodeproj</string>
+	<string>PoppingOutCell.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2A9C6BDD3474D6FC4355EA97781131407703E025</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/dbcrystal/PoppingOutCell.git</string>
