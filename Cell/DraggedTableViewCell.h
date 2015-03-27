@@ -7,16 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CellView.h"
-#import "PopOutButtonView.h"
-typedef NS_ENUM(NSInteger, EnumDraggedTableVeiwCellType)
-{
-    EnumDraggedTableVeiwCellTypeTop = 1,
-    EnumDraggedTableVeiwCellTypeBottom = 2,
-    EnumDraggedTableVeiwCellTypeMiddle = 3,
-    EnumDraggedTableVeiwCellTypeBothTopAndBottom = 4
-};
-
 @class DraggedTableViewCell;
 
 @protocol TableViewCellDelegate <NSObject>
@@ -33,12 +23,6 @@ typedef NS_ENUM(NSInteger, EnumDraggedTableVeiwCellType)
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier forTableView:(UITableView *)tableView withDeviceViewWidth:(CGFloat)width andCellHeight:(CGFloat)height;
 
-- (void)lockCellView;
-- (void)unlockCellView;
-- (BOOL)ifHadLocked;
-
-- (void)resetViews;
-
 //add main cell view. This view will show to users first.
 //Subview's frame would like to be (0, 0, /*Your screen or tableView width*/, cell Height)
 - (BOOL)addSubviewAsContent:(UIView *)subview;
@@ -48,10 +32,12 @@ typedef NS_ENUM(NSInteger, EnumDraggedTableVeiwCellType)
 //Subview's frame would like to be (/*Your screen or tableView width*/, 0, /*Your subview's width*/, /*Your subview's height*/)
 - (BOOL)addSubviewAsPopOutButton:(UIView *)subview;
 
-@property (nonatomic, strong) UIView *coverView;
+
+- (void)resetViews;
+- (void)clickWithIndex:(NSInteger)index;//点击按钮
+- (void)cellSeleted;//点击cell
+
 @property (nonatomic, weak) UITableView *tableView;
 @property (nonatomic, weak) id<TableViewCellDelegate> delegate;
-
-- (void)dismissAllPoppingoutViews;
 
 @end
